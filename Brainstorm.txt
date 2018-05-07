@@ -1,0 +1,38 @@
+- Inicialização
+npm install --save eslint-config-rallycoding
+npm install --save react-native-router-flux
+criar o arquivo .eslintrc na raiz do projeto com o conteúdo
+{
+  "extends" : "rallycoding"
+}
+
+- layout
+https://github.com/halilb/react-native-textinput-effects
+https://github.com/xotahal/react-native-material-ui
+https://github.com/mastermoo/react-native-action-button
+https://github.com/i6mi6/react-native-parallax-scroll-view
+https://github.com/jacklam718/react-native-popup-dialog
+
+- Banco de dados
+Firebase
+
+
+- Input Informações de combustivel
+	- Valor por litro
+	- Valor total
+	- Qtd de litros
+	- Km atual
+	- Tipo de combustivel
+	- Bandeira do posto
+- Histórico de reabastecimento
+	- Data
+	- Valor total
+	- Valor por litro
+- Informações sobre o veiculo
+	- Cadastro de veiculo
+	- Exibe Km/L para cada veiculo
+- Monitor de Gastos em viagem
+	- App funciona pela tela de notificação (igual spotify)
+	- Botão de Inicio da viagem e Fim de viagem
+	- Mostra quantos km percorreu, quantos litros gastou (com base no km/l do veiculo)
+	- Simulação de viagem entre dois pontos mostra quantos litros de combustivel gastaria (com base no km/l do veiculo)
